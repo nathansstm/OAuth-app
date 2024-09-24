@@ -1,0 +1,13 @@
+{
+  "name": "OAuth-app",
+  "version": "1.0.0",
+  "description": "A Node.js HTTP/2 server application running on port 3000.",
+  "main": "server.js",
+  "scripts": {
+    "start": "nohup node server.js &",
+    "test": "nohup node server-test.js &"
+  },
+  "keywords": [],
+  "author": "Nathaniel",
+  "license": "Apache-2.0"
+}
