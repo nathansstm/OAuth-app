@@ -93,7 +93,7 @@ Grant necessary privileges to the app user:
 
 - Make use of `nohup` output logging and when you encounter a critical task check your SSL setup and your firewall because while simple this node app is made for http2 and https that means valid domains and http2 with https are expected and required
 
-
+- Use the provided test as `npm run test` and start the main node app with `npm run start` so you get output logging (nohup) and a background process (&) this will give you either the test route and a database connection success message for test or the actual OAuth application server
 
 
 ## Required Modules
